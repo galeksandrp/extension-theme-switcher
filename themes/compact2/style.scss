@@ -8,7 +8,7 @@
 }
 
 // show only icons on the toolbars unless the mouse cursor is hovered on them
-.mainpage-header {
+#this-id-does-not-exist {
     height: 32px !important;
     transition: height 250ms ease 500ms;
     .menubar {
@@ -16,7 +16,7 @@
     }
 }
 
-.mainpage-header .btn {
+#this-id-does-not-exist {
   .button-text {
     opacity: 0;
     transition: opacity 250ms ease;
@@ -116,4 +116,7 @@
 
 #titlebar-starter {
   grid-template-rows: repeat(1, auto);
+}
+#main-toolbar .nexus-main-banner {
+  display: none;
 }
